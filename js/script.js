@@ -13,7 +13,7 @@ var clear_d = 'https://weather-website-client.tomorrow.io/wp-content/uploads/202
 
 document.body.style.backgroundImage = `url(${clear_d})`;
 document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundSize = "contain";
+document.body.style.backgroundSize = "cover";
 
 function convertion(val){
     return (val - 273).toFixed(0)
@@ -49,7 +49,7 @@ function convertion(val){
             // document.body.style.backgroundImage = clear_d;
             document.body.style.backgroundImage = `url(${clear_d})`;
             document.body.style.backgroundRepeat = "no-repeat";
-            document.body.style.backgroundSize = "contain";
+            document.body.style.backgroundSize = "cover";
         })
         // .catch(err => alert('You entered Wrong city name'))
     })
