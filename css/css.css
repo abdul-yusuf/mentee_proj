@@ -2,9 +2,11 @@ body{
     background: blue;
 }
 .main{
+    text-align: center;
     background-color: rgba(255, 255, 255, 0.212);  
     backdrop-filter: blur(5px);
-    width: fit-content;
+    /* width: fit-content; */
+    max-width: 60%;
     height: 500px;
     margin: 50px auto;
     padding: 20px;
@@ -12,7 +14,7 @@ body{
    }
 
 .figure{
-    width: 180px;
+    width: 160px;
 }
 #icon{
     padding-left: 0%;
@@ -24,6 +26,11 @@ body{
     font-weight: bold;
     font-size: 60px;
 }
+
+#cityinput{
+    inherits: main;
+}
+
 .inputs{
     text-align: center;
     padding: 2rem 0 2rem 0;
@@ -31,7 +38,7 @@ body{
 }
 .inputs input[type="text"]{
     height: inherit;
-    width: 20rem;
+    width: inherit;
     font-weight: bold;
     padding: 10px;
     background-color: transparent;
@@ -41,7 +48,7 @@ body{
 
 }
 .inputs input[type="submit"] {
-    height: 3.2rem;
+    height: 2.6rem;
     width: 6.5rem;
     background: #0a67ca;
     font-weight: bold;
