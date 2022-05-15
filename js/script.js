@@ -13,7 +13,7 @@ var clear_d = 'https://weather-website-client.tomorrow.io/wp-content/uploads/202
 
 document.body.style.backgroundImage = `url(${clear_d})`;
 document.body.style.backgroundRepeat = "no-repeat";
-document.body.style.backgroundSize = "auto";
+document.body.style.backgroundSize = "contain";
 
 function convertion(val){
     return (val - 273).toFixed(0)
