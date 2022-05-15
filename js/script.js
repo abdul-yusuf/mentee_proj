@@ -49,7 +49,7 @@ function convertion(val){
             // document.body.style.backgroundImage = clear_d;
             document.body.style.backgroundImage = `url(${clear_d})`;
             document.body.style.backgroundRepeat = "no-repeat";
-            document.body.style.backgroundSize = "auto";
+            document.body.style.backgroundSize = "contain";
         })
         // .catch(err => alert('You entered Wrong city name'))
     })
